@@ -11,15 +11,15 @@ const Home = (props) => {
 
     return(
     <View style={globalStyles.mainView}>
-        <Image style={{ marginVertical: 8, width: 250, height: 250, alignSelf: 'center' }} source={require('@assets/images/logo.png')} />
+        <Image style={styles.logoImage} source={require('@assets/images/logo.png')} />
 
-        <Text style={{ marginBottom: 8, }}>
-            Home screen <Text style={{ fontWeight: 'bold', }}>(@modules/Main/Home)</Text>
+        <Text style={globalStyles.marginVertical}>
+            Home screen <Text style={globalStyles.boldText}>(@modules/Main/Home)</Text>
         </Text>
 
         <Button title={'List of movies'}  onPress={() => navigation.push('ListOfMovies')} />
 
-        <View style={{ marginVertical: 8, }} />
+        <View style={globalStyles.marginVertical} />
 
         <Button title={'Logout'} type={'secondary'} onPress={() => signOut()} />
     </View>

@@ -10,4 +10,13 @@ export default StyleSheet.create({
     boldText: {
         fontWeight: 'bold',
     },
+    marginVertical: {
+        marginVertical: 8,
+    },
+    logoImage: {
+        marginVertical: 8,
+        width: 250,
+        height: 250,
+        alignSelf: 'center',
+    },
 });

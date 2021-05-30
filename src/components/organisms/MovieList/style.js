@@ -1,7 +1,7 @@
 import { StyleSheet, } from 'react-native';
 
 export default StyleSheet.create({
-    title: {
-        marginBottom: 10,
-    },    
+    mainView: {
+        padding: 6,
+    },
 });
