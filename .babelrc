@@ -2,7 +2,14 @@
     "plugins": [
       ["module-resolver", {
           "alias": {
-              "@test": "./src/test"
+            "@assets": "./src/assets",
+            "@components": "./src/components",
+            "@context": "./src/context",
+            "@modules": "./src/modules",
+            "@navigations": "./src/navigations",
+            "@services": "./src/services",
+            "@styles": "./src/styles",
+            "@utils": "./src/utils"
           }
       }]
     ]
