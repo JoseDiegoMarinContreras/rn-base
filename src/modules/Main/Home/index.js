@@ -25,4 +25,5 @@ const Home = (props) => {
     </View>
     );
 };
+
 export default Home;
