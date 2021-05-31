@@ -11,7 +11,7 @@ const Home = (props) => {
 
     return(
     <View style={globalStyles.mainView}>
-        <Image style={styles.logoImage} source={require('@assets/images/logo.png')} />
+        <Image style={globalStyles.logoImage} source={require('@assets/images/logo.png')} />
 
         <Text style={globalStyles.marginVertical}>
             Home screen <Text style={globalStyles.boldText}>(@modules/Main/Home)</Text>
